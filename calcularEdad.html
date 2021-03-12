@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calcular Edad</title>
+</head>
+<body>
+  <h1>Calculando la Edad</h1>
+  <label>Fecha de Nacimiento:</label>
+  <input id="fechaNac" type="date" value="<?php echo date('Y-m-d');?>" required>
+  <label>Edad</label>
+  <input id="edad" type="text" size="8">
+  <button onclick="calcularEdad()">Calcular</button>
+<script src="calcularEdad.js"></script>
+</body>
+</html>
